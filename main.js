@@ -5,14 +5,14 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("QUAL ÚLTIMO TIME Á GANHAR O MUNDIAL?");
 
     
-    if (respostaTime.toLowerCase() === "athlético pr") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "Corinthians") {
+      alert("Isso mesmo! O último vencedor é o Timão!!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! Tente novamente.");
+      alert("Você é burro?");
     }
   }
 }
