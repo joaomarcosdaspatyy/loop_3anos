@@ -8,11 +8,11 @@ function verificarTime() {
     var respostaTime = prompt("QUAL ÚLTIMO TIME Á GANHAR O MUNDIAL?");
 
     
-    if (respostaTime.toLowerCase() === "Corinthians") {
+    if (respostaTime.toLowerCase() === "corinthians") {
       alert("Isso mesmo! O último vencedor é o Timão!!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Você é burro?");
+      alert("Timão campeão dos campeões!");
     }
   }
 }
